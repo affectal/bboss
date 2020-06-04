@@ -1,0 +1,206 @@
+@media (max-width: 1300px) {
+    .approach {
+        .container__wrapper {
+            background-size: 40%;
+        }
+    }
+}
+
+@media (max-width: 1080px) {
+    .menu__list {
+        li+li {
+            margin-left: 18px;
+        }
+    }
+    .menu__list-dropdown {
+        li+li {
+            margin-left: 0;
+            margin-top: 18px;
+        }
+    }
+}
+
+@media (max-width: 1020px) {
+    .menu__list.top {
+        display: none;
+    }
+    .lines {
+        display: block;
+    }
+}
+
+@media (max-width: 960px) {
+    .approach {
+        .container__wrapper {
+            background-size: 30%;
+            background-position: right bottom;
+        }
+        &__inner-content {
+            max-width: 100%;
+            .approach-title {
+                font-size: 75px;
+                line-height: 95px;
+            }
+            hr,
+            .text.bottom {
+                width: 60%;
+            }
+        }
+    }
+    .important {
+        &__inner-content {
+            margin-left: 30px;
+        }
+        &__inner-img {
+            img {
+                max-width: 496px;
+                width: 100%;
+            }
+        }
+    }
+    .control__inner {
+        .right {
+            .content-box {
+                padding-left: 100px;
+                &::before {
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .footer__inner {
+        flex-direction: column;
+        align-items: start;
+        .menu__list.bottom {
+            width: 100%;
+            li+li {
+                margin-left: 0;
+            }
+            .menu__list-item {
+                padding: 10px 0;
+                margin-left: 10px;
+            }
+        }
+        .copy {
+            align-self: flex-end;
+            margin-top: 20px;
+        }
+    }
+}
+
+@media (max-width: 740px) {
+    .important__inner-img {
+        img {
+            max-width: 400px;
+        }
+    }
+    .important__inner,
+    .control__inner {
+        flex-direction: column;
+    }
+    .important__inner-content {
+        margin-left: 0;
+    }
+    .control__inner {
+        .left {
+            max-width: 100%;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .approach {
+        .container__wrapper {
+            background-image: none;
+        }
+        &__inner-content {
+            hr,
+            .text.bottom {
+                width: 100%;
+            }
+        }
+    }
+    .request__inner {
+        flex-direction: column;
+        &-content {
+            width: 100%;
+            border-radius: 8px 8px 0 0;
+            .request-arrow {
+                display: none;
+            }
+        }
+        &-form {
+            width: 100%;
+            border-radius: 0 0 8px 8px;
+        }
+    }
+    .footer__inner {
+        .menu__list.bottom {
+            width: 380px;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .approach {
+        margin: 40px 0;
+    }
+    .important {
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .approach {
+        &__inner-content {
+            .approach-title {
+                font-size: 50px;
+                line-height: 60px;
+            }
+        }
+    }
+    .important__inner-img {
+        img {
+            max-width: 300px;
+        }
+    }
+    .control__inner {
+        .left {
+            .text {
+                margin-bottom: 70px;
+            }
+        }
+        .right {
+            margin-left: 0;
+            text-align: center;
+            .content-box {
+                padding-left: 0;
+                &::before {
+                    top: -80px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+                .content-box-title {
+                    font-size: 26px;
+                    text-align: center;
+                }
+            }
+            .content-box+.content-box {
+                margin-top: 110px;
+            }
+        }
+    }
+}
+
+@media (max-width: 380px) {
+    .footer__inner {
+        .menu__list.bottom {
+            width: 110px;
+        }
+    }
+}

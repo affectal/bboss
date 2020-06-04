@@ -1,0 +1,55 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+}
+
+main {
+    padding-top: 132px;
+}
+
+.container {
+    max-width: 1150px;
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 1.6;
+}
